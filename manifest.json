@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Classroom Hub",
+    "version": "1.0.0",
+    "permissions": ["downloads"],
+    "content_scripts": [
+        {
+            "matches": ["https://classroom.google.com/*"],
+            "js": ["script.js"]
+        }
+    ]
+}
